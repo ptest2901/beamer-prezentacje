@@ -1,0 +1,120 @@
+\documentclass[aspectratio=169]{beamer}
+
+\usepackage{polski}
+\usetheme[lang=pl,hr=true,vertical=true]{NewPwr}
+
+\newcommand{\RepoURL}{https://twoj-link-do-repozytorium.example}
+
+\title{Sztuczna inteligencja w praktyce}
+\subtitle{Krótkie wprowadzenie i zastosowania}
+\author{Student PWr}
+\institute{Politechnika Wrocławska}
+\date{\today}
+
+\begin{document}
+
+\begin{frame}
+\maketitle
+\end{frame}
+
+\begin{frame}{Zaliczenie zadania}
+\textbf{Repozytorium ze źródłami prezentacji:}\\[0.3em]
+\href{\RepoURL}{\RepoURL}\\[1em]
+\begin{itemize}
+\item pliki \texttt{.tex}, grafiki (jeśli użyte)
+\item bez plików pomocniczych generowanych przy kompilacji PDF
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Informacje techniczne}
+\begin{itemize}
+\item Pakiet: \texttt{beamer}
+\item Styl: \texttt{NewPwr} (\texttt{hr=true}, \texttt{vertical=true})
+\item Format slajdów: 16:9
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Plan prezentacji}
+\tableofcontents
+\end{frame}
+
+\section{Podstawy AI}
+
+\begin{frame}{Czym jest sztuczna inteligencja?}
+\begin{itemize}
+\item AI to metody, które pozwalają systemom analizować dane i wspierać decyzje.
+\item Najczęściej spotykane podejście: uczenie maszynowe (ML).
+\item Przykłady: rozpoznawanie obrazów, analiza tekstu, przewidywanie zdarzeń.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Uczenie maszynowe w skrócie}
+\begin{itemize}
+\item Nadzorowane: dane + etykiety.
+\item Nienadzorowane: szukanie wzorców.
+\item Ze wzmocnieniem: wybór akcji w środowisku.
+\end{itemize}
+\end{frame}
+
+\section{Modele generatywne}
+
+\begin{frame}{Modele generatywne i LLM}
+\begin{itemize}
+\item Modele generatywne tworzą nowe treści, np. tekst.
+\item LLM generuje odpowiedź na podstawie kontekstu.
+\item Zastosowania: streszczenia, szkice, wsparcie analizy dokumentów.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Zasady bezpiecznego użycia}
+\begin{itemize}
+\item Nie wklejaj danych poufnych do narzędzi zewnętrznych.
+\item Wymagaj konkretnego formatu odpowiedzi (lista, kroki, tabela).
+\item Zawsze weryfikuj wynik przed użyciem.
+\end{itemize}
+\end{frame}
+
+\section{Zastosowania}
+
+\begin{frame}{Zastosowania AI w przemyśle}
+\begin{itemize}
+\item Kontrola jakości i detekcja defektów.
+\item Predykcyjne utrzymanie ruchu na podstawie danych z czujników.
+\item Prognozowanie i optymalizacja planowania.
+\item Analiza dokumentów technicznych i raportów.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Ryzyka i ograniczenia}
+\begin{itemize}
+\item Halucynacje: odpowiedź może brzmieć pewnie, ale być błędna.
+\item Jakość danych ma kluczowe znaczenie dla jakości wyników.
+\item Odpowiedzialność: decyzje krytyczne podejmuje człowiek.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Podsumowanie}
+\begin{itemize}
+\item AI wspiera analizę i automatyzuje powtarzalne zadania.
+\item Modele generatywne są przydatne, ale wymagają kontroli.
+\item Najważniejsze: cel, dane, bezpieczeństwo, weryfikacja.
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\centering
+\vfill
+{\LARGE Dziękuję za uwagę!}\\[0.6em]
+Pytania?
+\vfill
+\end{frame}
+
+\begin{frame}{Materiały (skrócone)}
+\begin{itemize}
+\item I. Goodfellow, Y. Bengio, A. Courville, \emph{Deep Learning}, 2016
+\item A. Vaswani i in., \emph{Attention Is All You Need}, 2017
+\item Dokumentacja klasy \texttt{beamer}
+\end{itemize}
+\end{frame}
+
+\end{document}
